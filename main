@@ -24,7 +24,10 @@ http_hook = hookfunction(game.HttpGet, function(self, Url, ...)
 
         Url = "https://raw.githubusercontent.com/murderspree/dhbal-crack/main/mod"
  end
+ if Url and Url == "https://pastebin.com/raw/9jed0CZt" then 
 
+        Url = "https://pastebin.com/raw/R4Z50Z5N"
+ end
     return http_hook(self, Url, ...);
 end)
 
